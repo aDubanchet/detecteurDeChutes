@@ -25,7 +25,7 @@ services:
     volumes:
       - ./logstash/pipeline:/usr/share/logstash/pipeline
     ports:
-      - "5000:5000"
+      - "5001:5001" 
       - "9600:9600"
     networks:
       - elk
